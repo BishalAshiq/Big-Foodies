@@ -18,7 +18,6 @@ h2 {
 }
 
 .half-width{
-    background-repeat: no-repeat;
     background-position: left;
     text-align: justify;
     padding-left: 30px;
@@ -42,4 +41,29 @@ h2 {
     color: rgb(20, 12, 2);
     border: 2px solid orange;
     padding: 10px 40px;
+}
+
+
+/* 3rd section */
+
+.middle-item{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#another-item{
+ 
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    border-radius: 20px;
+    box-shadow: 25px 50px 40px gray;
+}
+.third-width{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(191, 30, 240) rgb(17, 219, 255));
+    border-image-slice: 1;
+
 }
