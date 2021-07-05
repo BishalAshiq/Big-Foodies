@@ -13,6 +13,10 @@ h1{
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .half-width{
     background-image: url(images/shapes/Frame\ 59.jpg);
     background-repeat: no-repeat;
@@ -25,5 +29,14 @@ h1{
 }
 
 .orange-color{
-    color: tomato;
+    color: rgba(248, 144, 8, 0.829);
+}
+
+.order-food{
+    text-decoration: none;
+    background-color: rgb(253, 134, 22);
+    color: rgb(20, 12, 2);
+    border: 2px solid orange;
+    padding: 10px 40px;
+
 }
