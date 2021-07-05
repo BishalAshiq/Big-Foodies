@@ -3,12 +3,6 @@ body{
     margin: 0;
 }
 
-.experience-items{
-    display: flex;
-    margin: 0;
-
-}
-
 h1{
     font-size: 50px;
 }
@@ -17,14 +11,24 @@ h2 {
     font-size: 30px;
 }
 
+.experience-items{
+    display: flex;
+    margin: 0;
+
+}
+
 .half-width{
-    background-image: url(images/shapes/Frame\ 59.jpg);
     background-repeat: no-repeat;
     background-position: left;
     text-align: justify;
     padding-left: 30px;
     padding-top: 40px;
-    
+    padding-right: 10px;
+    margin-bottom: 100px;
+}
+
+#extra-item{
+    background-image: url(images/shapes/Frame\ 59.jpg);
 
 }
 
@@ -38,5 +42,4 @@ h2 {
     color: rgb(20, 12, 2);
     border: 2px solid orange;
     padding: 10px 40px;
-
 }
