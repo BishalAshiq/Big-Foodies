@@ -1,4 +1,5 @@
 body{
+   background-color: darkorange;
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -17,6 +18,10 @@ h2 {
 
 }
 
+section {
+    display: block;
+}
+
 .half-width{
     background-position: left;
     text-align: justify;
@@ -32,7 +37,7 @@ h2 {
 }
 
 .orange-color{
-    color: rgba(248, 144, 8, 0.829);
+    color: rgba(46, 243, 122, 0.829);
 }
 
 .order-food{
@@ -46,23 +51,70 @@ h2 {
 
 /* 3rd section */
 
-.middle-item{
+.wrapper {
+    margin-top: 10%;
+}
+
+.wrapper h1{
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
     text-align: center;
-    margin-top: 100px;
 }
-
-#another-item{
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 50px;
-    padding-left: 30px;
+.items img {
+    width: 300px;
     border-radius: 20px;
-    box-shadow: 25px 50px 40px gray;
-}
-.third-width{
-    border-left: 7px solid;
-    border-image: linear-gradient(rgb(191, 30, 240) rgb(17, 219, 255));
-    border-image-slice: 1;
+    text-align: center;
+  }
 
+.items{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px 20px gray;
 }
+
+.items .team-item{
+    background-color: rgb(240, 168, 80);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+    
+}
+.items .team-item h3{
+    color: chocolate;
+    font-size: 26px;
+    margin-top: 50px;
+}
+.items .team-item p.role{
+     color: rgb(5, 5, 5);
+     font-size: 12px;
+     text-transform: uppercase;
+     margin: 12px 0;
+}
+
+/* Social-media */
+
+.social-media {
+    margin-top: 120px;
+    margin-left: 160px;
+    margin-right: 50px;
+    width: 950px;
+    height:90px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px -2px rgb(48 47 46);
+  
+  }
+  .fb, .tube, .instra {
+      position: relative;
+      width: 130px;
+      height: 100px;
+      margin-left: 150px;
+  }
