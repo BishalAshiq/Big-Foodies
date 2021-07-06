@@ -1,5 +1,5 @@
 body{
-   background-color: rgb(255, 145, 0);
+    background-color: rgb(255, 145, 0);
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -50,7 +50,6 @@ section {
 
 
 /* 3rd section */
-
 .wrapper {
     margin-top: 10%;
 }
@@ -84,13 +83,14 @@ section {
     padding: 20px;
     line-height: 20px;
     position: relative;
-    
 }
+
 .items .team-item h3{
     color: chocolate;
     font-size: 26px;
     margin-top: 50px;
 }
+
 .items .team-item p.role{
      color: rgb(5, 5, 5);
      font-size: 12px;
@@ -99,7 +99,6 @@ section {
 }
 
 /* Social-media */
-
 .social-media {
     margin-top: 120px;
     margin-left: 160px;
@@ -110,8 +109,8 @@ section {
     background-color: white;
     border-radius: 10px;
     box-shadow: 5px 5px 20px -2px rgb(48 47 46);
-  
   }
+  
   .fb, .tube, .inst {
       position: relative;
       width: 130px;
@@ -126,6 +125,9 @@ section {
     background-color: rgb(77, 13, 73);
     padding: 5px 50px 110px 50px;
   }
+ 
+
+  /* footer  */
   footer h2 span{
     color: rgb(43, 161, 116);
   }
