@@ -33,7 +33,6 @@ section {
 
 #extra-item{
     background-image: url(images/shapes/Frame\ 59.jpg);
-
 }
 
 .orange-color{
@@ -60,6 +59,7 @@ section {
     margin-bottom: 60px;
     text-align: center;
 }
+
 .items img {
     width: 300px;
     border-radius: 20px;
@@ -110,7 +110,7 @@ section {
     border-radius: 10px;
     box-shadow: 5px 5px 20px -2px rgb(48 47 46);
   }
-  
+
   .fb, .tube, .inst {
       position: relative;
       width: 130px;
